@@ -13,7 +13,6 @@ typedef enum {
   STATE_TIMER = 0,  // counting mins left
   STATE_BLINKLED = 1, // blink LED
   STATE_RESETTIMER = 2, // reset timer when drank water
-  STATE_GOTOSLEEP = 3  // go to sleep mode
 } state_t;
 
 state_t state = STATE_TIMER;
